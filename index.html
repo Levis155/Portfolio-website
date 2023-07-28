@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Assets/portfolio.css">
+
+        <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/icons/apple-touch-icon.png">
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+      <title>Portfolio</title>
+
+
+    </head>
+
+
+    <body>
+        <nav>
+          <h1>
+            Hello am Levis Muthigani
+          </h1>
+
+
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+              </button>
+        </nav>
+
+
+        <section class="hero" id="about">
+            <img
+              src="assets/images/vector-icon.png"
+              loading="lazy"
+              class="hero-img"
+            />
+
+
+              <div data-tilt class="bio">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">
+                  Hi. My name is Levis. I recently started taking interest in web development. My specializations so far include HTML, CSS and JavaScript. If you're looking for someone to design and\or develop websites and web apps for you, rest assured you've come to the right place.
+                </p>
+              </div>
+      </section>
+
+
+      <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+          Apart from being a web developer, am also a continuing undergraduate specialising in electronics and computer engineering. If you require any services based on the mentioned fields, I am also available and gurantee swift feedback from my end. Simply fill out the fields at the bottom of the page to get in touch with me.
+        </p>
+      </section>
+
+
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              data-tilt
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              data-tilt
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              data-tilt
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card" data-tilt>
+            <img
+              src="assets/images/news-homepage-copy.png"
+              alt="expense-tracker"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">News Homepage</h3>
+            <p class="project-details">
+              This webpage is a protoype of a beautifully laid-out news homepage. The project itself comprises of html and css code.
+            </p>
+            <a href="https://news-homepage-peach-three.vercel.app/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card" data-tilt>
+            <img
+              src="assets/images/Age-calculator-copy.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Age Calculator App</h3>
+            <p class="project-details">
+              This project is designed to take the date filled in by the user and display the number of years, months and days that have passed since. It contains html, css and Javascript code.
+            </p>
+            <a href="https://age-calculator-app-beta.vercel.app/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card" data-tilt>
+            <img
+              src="assets/images/Intro-section-copy.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">intro section with navigation</h3>
+            <p class="project-details">
+              This webpage comprises of an interactive navigation bar that vanishes and can only be toggled by use of a button when scaling down to smaller screen sizes. It comprises of HTML, CSS and JavaScript code.
+            </p>
+            <a href="https://intro-section-with-navigation.vercel.app/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/mqkvardk" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="socials">
+            <a href="" target=""
+            ><img
+                src="assets/icons/icons8-twitter-circled.gif"
+                alt="Twitter"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="" target=""
+            ><img
+                src="assets/icons/icons8-instagram.gif"
+                alt="Instagram"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="" target=""
+            ><img
+                src="assets/icons/icons8-linkedin-circled.gif"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://github.com/Levis155" target="_blank"
+            ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+            /></a>
+      </div>
+
+      <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built by
+          <a href="" target=""
+            >Levis</a
+          >
+        </p>
+  </footer>
+
+  <i class="scroll-up" id="scroll-up"
+  ><img
+    src="assets/icons/icons8-upward-arrow.gif"
+    class="socicon up-arrow"
+    alt="scroll-up"
+/></i>
+
+
+        
+        <script src="Assets/portfolio.js"></script>
+
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    </body>
+</html>
