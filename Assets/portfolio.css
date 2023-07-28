@@ -61,6 +61,7 @@ nav {
 
 nav h1{
   color: var(--primary-color);
+  transition: var 1s;
 }
 
 
